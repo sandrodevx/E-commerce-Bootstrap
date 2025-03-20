@@ -1,5 +1,7 @@
 # Online Store Project
 
+[View Live Page](https://sandrodevx.github.io/E-commerce-Bootstrap/)
+
 This is a simple **Online Store** project built using **Bootstrap 5**. It features a responsive design with a navigation bar, a hero section, a product grid, and a footer. The project is designed to be easy to customize and extend.
 
 ---
