@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Meta tags necesarios -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <!-- Link al CSS de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <style>
+    .card-img-top {
+      width: 100%; /* Ocupa el 100% del ancho del contenedor */
+      height: auto; /* Altura automática para mantener la relación de aspecto */
+      object-fit: cover; /* Cubre el espacio sin deformarse */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Nombre de la tienda -->
+      <a class="navbar-brand" href="#">Mi Tienda</a>
+      <!-- Botón para dispositivos móviles -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Menú de navegación -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>Bienvenido a Mi Tienda</h1>
+      <p>Encuentra los mejores productos al mejor precio.</p>
+      <a href="#" class="btn btn-light btn-lg">Ver Productos</a>
+    </div>
+  </header>
+
+  <!-- Product Grid -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Nuestros Productos</h2>
+    <div class="row">
+      <!-- Producto 1 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="https://keeshoes.es/a/ale/auction_image/image1_192710.s790/zapatillas-salomon-speedcross-6-gtx-w-473023-azul-790x790.jpeg?_=1734288674.1259964" class="card-img-top w-100" alt="Zapatillas Salomon Speedcross 6 GTX - Azul">
+          <div class="card-body">
+            <h5 class="card-title">Salomon Speedcross 5</h5>
+            <p class="card-text">Zapatillas perfectas para trail y senderismo.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Producto 2 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="https://www.microgamma.com/wandrd/i/Black_2000x.jpg" class="card-img-top w-100" alt="Mochila Wandrd PRVKE 31 L Negra">
+          <div class="card-body">
+            <h5 class="card-title">Mochila Wandrd 21l</h5>
+            <p class="card-text">La mejor mochila para cámaras fotográficas del mercado.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Producto 3 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="https://es.static.webuy.com/product_images/Juegos/PS5%20Consolas/SPS5825GBSM2002_l.jpg" class="card-img-top w-100" alt="Playstation 5, 825GB, Spider-Man">
+          <div class="card-body">
+            <h5 class="card-title">Playstation 5</h5>
+            <p class="card-text">Tu Playstation al mejor precio y personalizada de Spiderman.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2025 Secret Feel. Todos los derechos reservados.</p>
+      <p>Contacto: Secretfeel@store.shop</p>
+    </div>
+  </footer>
+
+  <!-- Script de Bootstrap (JavaScript) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
